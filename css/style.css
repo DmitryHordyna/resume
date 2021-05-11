@@ -47,15 +47,16 @@ body {
 }
 
 .contactsname {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 24px;
     color: #ffff;
+    margin-bottom: 15px;
 
 }
 
 .contactslink {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     color: gray;
@@ -70,7 +71,7 @@ body {
 }
 
 .techskilltityle {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 24px;
     color: #ffffff;
@@ -86,11 +87,17 @@ body {
 }
     
 .my-element {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     color: red;
     margin-left: 15px;
+
+}
+.name-sector{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .my-element-text {
@@ -98,7 +105,7 @@ body {
 }
 
 .softskillcontainer {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 24px;
     color: #ffffff;
@@ -113,7 +120,7 @@ body {
 }
 
 .elementboxskill {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     color: red;
@@ -148,7 +155,8 @@ body {
 }
 
 .progectname {
-    font-size: 22px;
+
+    font-size: 25px;
     font-weight: 700;
     line-height: 24px;
     padding-top: 64px;
@@ -159,6 +167,9 @@ body {
     font-weight: 400;
     line-height: 24px;
     color: #b2b2b2;
+}
+.projectposul:hover{
+    color: #807878;  
 }
 
 .texh-name {
@@ -178,7 +189,7 @@ margin-left: 15px;
 }
 
 .professiontiotle {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     margin-top: 10px;
@@ -196,7 +207,7 @@ margin-left: 15px;
     font-weight: 400;
     line-height: 24px;
     color: #c5c5c5;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
 
 }
 
@@ -218,7 +229,7 @@ margin-left: 15px;
 
 .educationtext { 
     color:red;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     margin-top: 10px;
@@ -226,8 +237,10 @@ margin-left: 15px;
 }
 
 .educationprof {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 24px;
+    margin-bottom: 4px;
+    margin-top: 0;
 
 }
