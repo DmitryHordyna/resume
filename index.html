@@ -1,191 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="asidebar-container">
+        <aside class="asidebar">
+          <div>
+            <div class="contact-container">
+              <ul class="list svg-list">
+                <li class="item svg-item">
+                  <svg class="svg">
+                    <use href="./img/icon.svg#icon-location"></use>
+                  </svg>
+                </li>
 
-<body>
-<!-- main container -->
- <div class="grappe">
-   <aside class="asidebar">
-      <img  class="myfotto" src="./img/photo_2021-02-06 11.22.55.jpeg" alt="My foto">
-   
-   
-   <div >
-<!--contacts container-->
-      <div class="contactscontainer">
-         <h3 class="contactsname">Contacts</h3>
-      <div > 
-              <span class="contaktslinktipe">C:</span> 
-               <a class="contactslink" href="tel:+38 093 758 75 49">+38 093 758 75 46</a>
-             </div>
-              <div> 
-            <span class="contaktslinktipe">E:</span> 
-            <a class="contactslink" href="mailto:yctehtyt@gmail.com">hordynadmytro@gmail.com</a>
-         </div>
-            <!-- <div>
-               <span class="contaktslinktipe">IG:</span> 
-               <a class="contactslink" href="https://www.instagram.com/OFk/?hl=ru">more_baksov</a>
-          </div>    -->
+                <li class="item svg-item">
+                  <svg class="svg">
+                    <use href="./img/icon.svg#icon-phone"></use>
+                  </svg>
+                </li>
+                <li class="item svg-item">
+                  <svg class="svg">
+                    <use href="./img/icon.svg#icon-mail"></use>
+                  </svg>
+                </li>
+                <li class="item svg-item">
+                  <svg class="svg">
+                    <use href="./img/icon.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+                <li class="item svg-item">
+                  <svg class="svg">
+                    <use href="./img/icon.svg#icon-world"></use>
+                  </svg>
+                </li>
+              </ul>
+
+              <div class="link-container">
+                <div class="img-container">
+                  <img class="img" src="./img/Iam.jpeg" alt="my foto" />
+                </div>
+
+                <div>
+                  <h2 class="title-section aside-title">Info</h2>
+                  <div class="text-underline"></div>
+                  <ul class="list">
+                    <li class="item link-item">
+                      <p class="aside-text">GitHub</p>
+                      <a
+                        target="_blank"
+                        class="link link-link"
+                        href="https://github.com/DmitryHordyna"
+                      >
+                        @DmitryHordyna</a
+                      >
+                    </li>
+                    <li class="item link-item">
+                      <p class="aside-text">LinkedIn</p>
+                      <a
+                        class="link link-link"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/dmytro-hordyna-6122aa203/"
+                      >
+                        Dmytro Hordyna
+                      </a>
+                    </li>
+                    <li class="item link-item">
+                      <p class="aside-text">Mail</p>
+                      <a
+                        class="link link-link"
+                        target="_blank"
+                        href="mailto:hordynadmytro@gmail.com"
+                        >hordynadmytro@gmail.com</a
+                      >
+                    </li>
+
+                    <li class="item link-item">
+                      <p class="aside-text">Phone</p>
+                      <a
+                        class="link link-link"
+                        target="_blank"
+                        href="tel:+380937587549"
+                        >+38 093-758-75-49</a
+                      >
+                    </li>
+                    <li class="item link-item">
+                      <p class="aside-text">Area</p>
+                      <a
+                        class="link link-link"
+                        target="_blank"
+                        href="https://goo.gl/maps/uk385jBz3qS7wCr89"
+                        >Ukraine,Kiev</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <article class="article-skill">
+              <div class="skill-container">
+                <h2 class="title-section aside-title">Tech skills</h2>
+                <div class="text-underline"></div>
+                <ul class="list skill-list">
+                  <li class="item skill-item">
+                    <span class="skill-span">HTML</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">CSS</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">GIT</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">JavaScript</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">React</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="skill-container">
+                <h2 class="title-section aside-title">Soft skills</h2>
+                <div class="text-underline"></div>
+                <ul class="list skill-list">
+                  <li class="item skill-item">
+                    <span class="skill-span">Adaptability</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">Flexibility</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">Teamwork</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">Energy</span>
+                  </li>
+
+                  <li class="item skill-item">
+                    <span class="skill-span">A sense of humor</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="skill-container">
+                <h2 class="title-section aside-title">Spoken Languages</h2>
+                <div class="text-underline"></div>
+                <ul class="list skill-list">
+                  <li class="item skill-item">
+                    <span class="skill-span">English </span> -
+                    <span class="skill-span">B1</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">Ukraine </span> -
+                    <span class="skill-span">Native speaker</span>
+                  </li>
+                  <li class="item skill-item">
+                    <span class="skill-span">Russian </span> -
+                    <span class="skill-span">Advance</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="skill-container">
+                <h2 class="title-section aside-title">Hobbies</h2>
+                <div class="text-underline"></div>
+                <p class="skill-span">
+                  Socialising with firends and family, playing football, reading
+                  books ,cycling bicycle,computing and also travaling.
+                </p>
+              </div>
+              <div class="download-container">
+                <!-- <a
+                  class="download-link"
+                  target="_blank"
+                  href="./pdf/hordyna_dmytro_cv_frontend_developer.pdf"
+                  ><svg class="icon-download">
+                    <use href="./img/icon.svg#icon-download"></use></svg
+                  >Download PDF CV</a
+                > -->
+              </div>
+            </article>
+          </div>
+        </aside>
       </div>
 
-      <!--tech skill container-->
-      <div class="texskillcontainer">
-      
-         <h3 class="techskilltityle">Tech skills</h3>
-        <ul>
-          <li class="my-element"> <span class="my-element-text">HTML</span> </li> 
-          <li class="my-element"><span class="my-element-text">CSS</span> </li> 
-          <li class="my-element"><span class="my-element-text">GIT</span></li>
-          <li class="my-element"><span class="my-element-text">JavaScript</span></li>
-      </ul> 
-      </div>
-      
-      
-       <!--Soft skill container-->
-      <div class="softskillbox">
-         <h3 class="softskillcontainer">Soft skills</h3>
-         <ul>
-            <li class="elementboxskill"><span class="elementboxskilltext">Scrum</span> </li>
-            <li class="elementboxskill"><span class="elementboxskilltext">Flexibility</span></li>
-            <li class="elementboxskill"><span class="elementboxskilltext">Teamwork</span></li>
-            <li class="elementboxskill"><span class="elementboxskilltext">A sense of humor</span> </li>
+      <main class="information-container">
+        <section class="main-name">
+          <div class="squer-container">
+            <div class="name-container">
+              <h1>Hordyna <span class="span-name">Dmytro</span></h1>
+              <h3 class="name-profesion">Full-Stack Developer</h3>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="about-container">
+            <h2 class="title-section">About me</h2>
+            <p class="text">
+              At the moment I am studying on the GoIT course, specializing in
+              Full-Stack Developer. The training provides a lot of tech-skills
+              practice, participation in team projects and IT English. At this
+              stage, I am completing the Javascript and React course and now
+              studying Node JS. <br />
+              My goal is to become a Middle Front End Developer in two years.
+              Open to internships and vacancies for junior.
+            </p>
+          </div>
+        </section>
 
-         </ul>
-      </div>
-      <!--Downloda cv-->
-      <div
-      class="softskillbox"> <h3 class="softskillcontainer download-cv">Download CV
-       </h3>
-       <ul>
-            <li class="elementboxskill"> <a href="./horduna_dmytro_front_end_developer.pdf" title="download" class="download" download> Click here</a></li>
-         </ul></div>
-   
-   </div>
-</aside>
+        <section>
+          <h3 class="title-section">PROJECTS</h3>
 
-<!-- main me container -->
-   <div class="mycontainer">
-      <!--about me main info-->
-      <div>
-     <h2 class="nameprofesion">Frontend developer / Full-Stack developer (student)</h2>
-     <h1 class="myname">Hordyna Dmytro</h1>
-     <p class="informationaboutme">At the moment I am studying on the GoIT course, specializing in Full-Stack Developer. The training provides a lot of tech-skills practice, participation in team projects and IT English. At this stage, I am completing the Javascript course and will soon start studying React and Node JS. Open to internships and vacancies for beginners.
-</p>
-   </div>
-    
+          <ul class="list project-list text">
+            <li class="project_item item">
+              <a
+                target="_blank"
+                class="project_link link"
+                href="https://art-smirnov.github.io/team-project-js/"
+              >
+                Event Booster
 
+                <span class="project_link link"> </span>
+                <span>
+                  <b class="education-span">[</b>
+                  <span class="span">HTML5, CSS3 , JS, Webpack</span
+                  ><b class="education-span">] </b>
+                </span>
+                An application for finding actual events in the world.
+              </a>
+            </li>
 
-    <!-- progects container -->
-   <div class="progectscontainerall">
-   <h3 class="progectname">PROJECTS</h3>
-   <h4 class="name-sector">GitHub repository</h4>
-<ul >
-      <li class="progectame"> 
-         <a  target="_blank" class="projectposul" href="https://github.com/DmitryHordyna"> https://github.com/DmitryHordyna</a> 
-   </li> 
-</ul>
-<h4 class="name-sector">Team project</h4>
-<ul>
-   <li class="progectame">
-          <a target="_blank" class="projectposul" href="https://art-smirnov.github.io/team-project/ "> Team project Ice-cream</a>
-          <span class="projectposul"> ....................................</span>
-          <span> <b>[</b> <span class="texh-name">HTML5, CSS3</span><b>]</b>  </span>
-   </li> 
-   <li class="progectame">
-          <a target="_blank" class="projectposul" href="https://art-smirnov.github.io/team-project-js/"> Team project Event Booster </a>
-          <span class="projectposul"> .............................</span>
-          <span> <b>[</b> <span class="texh-name">HTML5, CSS3,JS</span><b>]</b>  </span>
-   </li> 
-</ul>
-<h4 class="name-sector">Self projects</h4>
-<ul>
-   <li class="progectame"> 
-        <a target="_blank" class="projectposul" href="https://dmitryhordyna.github.io/Template_WebStudio/"> Web Studio</a>
-        <span class="projectposul"> .........................................</span>
-        <span> <b>[</b> <span class="texh-name">HTML5, CSS3 </span> <b>]</b>  </span>
-   </li> 
-    <li class="progectame"> 
-        <a target="_blank" class="projectposul" href="https://dmitryhordyna.github.io/Template_Barber-Shop/">Barber Shop</a>
-        <span class="projectposul"> .......................................</span>
-        <span> <b>[</b> <span class="texh-name">HTML5, CSS3 </span> <b>]</b>  </span>
-   </li> 
-   <li class="progectame"> 
-        <a target="_blank" class="projectposul" href="https://dmitryhordyna.github.io/Template_Trafalga/">Trafalgar</a>
-        <span class="projectposul">.............................................</span>
-        <span> <b>[</b> <span class="texh-name">HTML5, CSS3 </span> <b>]</b>  </span>
-   </li> 
-    <li class="progectame"> 
-        <a  target="_blank" class="projectposul" href="https://dmitryhordyna.github.io/GoIT_Finder/">The Founder</a>
-        <span class="projectposul"> .......................................</span>
-        <span> <b>[</b> <span class="texh-name">JavaScript</span> <b>]</b>  </span>
-   </li> 
-    <li class="progectame"> 
-        <a target="_blank" class="projectposul" href="https://dmitryhordyna.github.io/GoIT_Api-Timer-ChangeTheme/"> Country,LocalStorage,Timer</a>
-        <span class="projectposul">...............</span>
-        <span> <b>[</b> <span class="texh-name">JavaScript  </span> <b>]</b>  </span>
-   </li> 
-    </ul>
-   </div>
-  <div>
-       <!--Education experience-->
-       <h3 class="progectname" >Education</h3>
-       <div>
-       <h4 class="educationtext">National University of Life and Environmental Sciences of Ukraine</h4>
-       <p class="educationprof">Design engineer (Bachelor)</p>
-       <span class="timework" >Septermber 2013 - May 2017<span class="profesiondeveid">|</span> Ukraine</span>
-</div>
-      <div>
-       <h4 class="educationtext">National University of Life and Environmental Sciences of Ukraine</h4>
-       <p class="educationprof">Design engineer (Master)</p>
-       <span class="timework" >Septermber 2017 - December 2018 <span class="profesiondeveid">|</span> Ukraine </span>
-</div>
- <div>
-       <h4 class="educationtext">GoIT courses</h4>
-       <p class="educationprof">Full-Stack developer</p>
-       <span class="timework" >September 2020 - till now <span class="profesiondeveid">|</span> Ukraine</span>
-</div>
+            <li class="project_item item">
+              <a
+                target="_blank"
+                class="project_link link"
+                href="https://dmitryhordyna.github.io/GoIT_Finder/"
+                >The Founder
+                <span class="project_link link"> </span>
+                <span>
+                  <b class="education-span">[</b>
+                  <span class="span">JavaScript</span>
+                  <b class="education-span">] </b> </span
+                >An application to search for a picture by name.</a
+              >
+            </li>
+
+            <li class="project_item item">
+              <a
+                target="_blank"
+                class="project_link link"
+                href="https://phone-hd.netlify.app/"
+              >
+                Phonebook
+                <span class="project_link link"></span>
+                <span>
+                  <b class="education-span">[</b>
+                  <span class="span">React </span>
+                  <b class="education-span">] </b> </span
+                >Application with authorization, where you can save your
+                contacts.</a
+              >
+            </li>
+            <li class="project_item item">
+              <a
+                target="_blank"
+                class="project_link link"
+                href="https://art-smirnov.github.io/team-project/ "
+              >
+                Ice-cream
+                <span class="project_link link"> </span>
+                <span>
+                  <b class="education-span">[</b>
+                  <span class="span">HTML5, CSS3, Parcel</span
+                  ><b class="education-span">] </b> </span
+                >A website with a responsive layout.</a
+              >
+            </li>
+            <li class="project_item item">
+              <a
+                target="_blank"
+                class="project_link link"
+                href="https://dmitryhordyna.github.io/Template_WebStudio/"
+              >
+                Web Studio
+                <span class="project_link link"> </span>
+                <span>
+                  <b class="education-span">[</b>
+                  <span class="span">HTML5, CSS3 </span>
+                  <b class="education-span">] </b> </span
+                >A website with a responsive layout.</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="education-container">
+          <h2 class="title-section">Work Experience</h2>
+          <ul class="list">
+            <li class="item education-item">
+              <h3 class="education-profecion">
+                Internship from the university agricultural practices
+              </h3>
+              <p class="education-text">
+                May 2019 - December 2021
+                <span class="education-span">|</span> Denmark
+              </p>
+
+              <p class="text text-pro">
+                Since this is not related to the IT profession, I describe the
+                lessons my practice has taught me:
+              </p>
+              <ul class="list">
+                <li class="item text">Adaptation to a new environment.</li>
+                <li class="item text">Willingness to take on any challenge</li>
+                <li class="item text">Daily communication in English.</li>
+              </ul>
+            </li>
+            <li class="item education-item">
+              <h3 class="education-profecion">Design engineer</h3>
+              <p class="education-text">
+                June 2017 - December 2018
+                <span class="education-span">|</span> Ukraine
+              </p>
+              <ul class="list">
+                <li class="item">
+                  <p class="text">
+                    Draw details car using Compas 3D and SolidWorks.
+                  </p>
+                </li>
+                <li class="item">
+                  <p class="text">Monitoring and updating of documents.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section class="education-container">
+          <h2 class="title-section">Education</h2>
+          <ul class="list">
+            <li class="item education-item">
+              <a
+                href="https://nubip.edu.ua"
+                target="_blank"
+                class="education-title"
+              >
+                National University of Life and Environmental Sciences of
+                Ukraine
+              </a>
+              <p class="education-text">
+                Septermber 2013 - December 2018
+                <span class="education-span">|</span> Ukraine
+              </p>
+              <h4 class="education-profecion">Design engineer (Master)</h4>
+            </li>
+          </ul>
+        </section>
+
+        <section class="education-container">
+          <h2 class="title-section">Additional Education</h2>
+          <ul class="list">
+            <li class="item education-item">
+              <a
+                href="https://rs.school"
+                target="_blank"
+                class="education-title"
+                >Rolling Scopes School</a
+              >
+              <p class="education-text">
+                July 2021 - till now
+                <span class="education-span">|</span> Online
+              </p>
+              <h4 class="education-profecion">Front-End Developer</h4>
+            </li>
+            <li class="item education-item">
+              <a
+                href="https://goit.global/ru/"
+                target="_blank"
+                class="education-title"
+                >GOIT School</a
+              >
+              <p class="education-text">
+                Septermber 2020 - till now
+                <span class="education-span">|</span> Online
+              </p>
+              <h4 class="education-profecion">Full-Stack Developer</h4>
+            </li>
+          </ul>
+        </section>
+      </main>
     </div>
-
-    <!-- work experience-->
-    <div>
-       <h3 class="progectname">Work Experience</h3>
-       <div>
-         <h4 class="professiontiotle"><span class="profesioncolor">Design engineer</span>  </h4>
-         <span class="timework" > June 2017 - December 2018  <span class="profesiondeveid">|</span> Ukraine</span> 
-         <ul class="boxprofessionskill">
-            <li class="textprofesionconteiner"> 
-               Draw details car using Compas 3D and SolidWorks</li>
-            <li class="textprofesionconteiner">
-              Monitoring and updating of documents.</li>
-         </ul>
-       </div>
-       <div>
-          <!--manager experience-->
-          <h3 class="professiontiotle">Internship from the university <span class="profesioncolor">
-agricultural practices</span></h3>
-              <p class="timework">
-           May 2020 - August 2019 <span class="profesiondeveid">|</span> Germany</p>
-             <p class="timework">
-         October 2019 - February 2020 <span class="profesiondeveid">|</span> Switzerland</p>
-          <span class="timework">
-             <p class="timework">
-         October 2020 - till now <span class="profesiondeveid">|</span> Denmark</p>
-      </span>
-       </div>
-          
-  
-    </div>
-  
-
-
-    </div>
-
- </div>
-
-</body>
+    <footer class="footer"></footer>
+  </body>
 </html>
