@@ -168,7 +168,7 @@ section {
 }
 .link-link {
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
   color: rgb(214, 213, 212);
 }
 .link-link:focus,
@@ -354,4 +354,12 @@ section {
   padding-top: 30px;
   margin-bottom: 60px;
   margin-top: 80px;
+}
+@media print {
+  .download-container {
+    display: none;
+  }
+  svg {
+    display: none;
+  }
 }
