@@ -19,7 +19,7 @@ html {
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.7;
 
   background: var(--main-cl);
@@ -63,7 +63,7 @@ section {
   position: relative;
   margin-bottom: 5px;
 
-  font-size: 18px;
+  font-size: 20px;
   font-family: sans-serif;
   text-transform: uppercase;
 }
@@ -141,7 +141,7 @@ section {
 }
 .img {
   border-radius: 5%;
-  border: 2px solid whitesmoke;
+  border: 1px solid whitesmoke;
 
   /* border: 1px; */
   /* margin-bottom: 30px; */
@@ -153,7 +153,7 @@ section {
 .link-item {
   display: flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
 }
 .link-item:hover .svg-item {
@@ -193,7 +193,7 @@ section {
 }
 
 .skill-span {
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
 
   color: var(--white);
@@ -246,7 +246,7 @@ section {
 }
 .text {
   font-style: normal;
-  font-size: 15px;
+  font-size: 58x;
   color: var(--gray);
 }
 .second_title {
@@ -268,7 +268,7 @@ section {
   margin-top: 10px;
 }
 .education-title {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 500;
   color: var(--accent-cl);
   text-decoration: none;
@@ -279,12 +279,12 @@ section {
   text-decoration: underline;
 }
 .education-profecion {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 .education-text {
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   color: var(--gray);
 }
 .education-span {
@@ -316,7 +316,7 @@ section {
   height: 30px;
 }
 .coop {
-  font-size: 15px;
+  font-size: 16px;
   font-style: normal;
 }
 .download-container {
@@ -361,5 +361,14 @@ section {
   }
   svg {
     display: none;
+  }
+  .aside-text {
+    display: none;
+  }
+  .link-item {
+    font-size: 18px;
+  }
+  .name-container {
+    border: none;
   }
 }
